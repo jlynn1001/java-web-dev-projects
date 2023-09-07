@@ -33,6 +33,9 @@ public class Menu {
     this.menuItems.add(item);
     this.lastUpdated = LocalDate.now();
     }
+    public void removeMenuItem(String name) {
+
+    }
 }
 
 

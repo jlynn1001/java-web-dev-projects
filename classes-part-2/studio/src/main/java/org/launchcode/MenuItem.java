@@ -15,6 +15,9 @@ public class MenuItem {
         this.isNew = iN;
     }
 
+    public void printMenuItem() {
+        System.out.println(this.name + " " + this.description);
+    }
     public String getName() {
         return name;
     }
